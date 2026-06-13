@@ -2,7 +2,7 @@
 
 A full-stack productivity dashboard built with React, Vite, Express, MongoDB, and AI-powered task insights. It helps users manage tasks, track progress, organize categories, view analytics, and get smart productivity recommendations.
 
-## ✨ Features
+## Features
 
 - User authentication and authorization
 - Create, update, delete, and organize tasks
@@ -13,7 +13,7 @@ A full-stack productivity dashboard built with React, Vite, Express, MongoDB, an
 - AI assistant for task recommendations and productivity coaching
 - File upload support for attachments
 
-## 🧰 Tech Stack
+## Tech Stack
 
 ### Frontend
 - React
@@ -41,15 +41,6 @@ task-manager-dashboard/
 └── package.json      # Root scripts for running both apps
 ```
 
-## 🚀 Getting Started
-
-### Prerequisites
-
-Make sure you have the following installed:
-
-- Node.js (v18 or newer)
-- npm
-- MongoDB running locally or a MongoDB Atlas connection string
 
 ### 1. Clone the repository
 
@@ -99,14 +90,6 @@ This starts:
 - backend API on `http://localhost:5000`
 - frontend dashboard on `http://localhost:5173`
 
-## 🧪 Useful Scripts
-
-```bash
-npm run dev          # start both frontend and backend
-npm run backend      # start only backend
-npm run frontend     # start only frontend
-npm run install-all  # install all dependencies
-```
 
 ## 🧠 AI Features
 
@@ -123,11 +106,3 @@ If no Gemini API key is set, the app still works using local fallback logic.
 - The backend uses CORS for local development simplicity.
 - Uploads are stored in the backend `uploads` folder.
 - You can customize the app further by updating the MongoDB connection and API key settings.
-
-## 🤝 Contributing
-
-Contributions are welcome. If you have ideas, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-## 📄 License
-
-This project is licensed under the ISC License.
